@@ -1,0 +1,19 @@
+h1 {
+    color: #f5bd1f;
+    text-shadow: 1px 1px 7px #FFD93D;
+    /* other shades of yellow from dark to lightest:
+    color:#f5bd1f;
+    color:#FFD93D;
+    color:#FFE863;
+    */
+}
+body {
+    background-color:#47297B;
+    border: 30px solid #5D2689;
+    box-shadow: 10px 10px #8736AA;
+    /* other shades of purple from dark to lightest:color: 
+    color:#47297B;
+    color:#5D2689;
+    color:#8736AA;
+    */
+}
