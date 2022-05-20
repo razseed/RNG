@@ -3,7 +3,7 @@ h1 {
     font-size: 5em;
     text-align: center;
     color: #f5bd1f;
-    text-shadow: 0px 0px 5px #FFD93D;
+    text-shadow: 0px 0px 20px #FFD93D;
     /* other shades of yellow from dark to lightest:
     color:#f5bd1f;
     color:#FFD93D;
@@ -13,7 +13,9 @@ h1 {
 body {
     background-color:#47297B;
     border: 30px solid #5D2689;
-    box-shadow: 0px 0px 10px #8736AA;
+    border-radius: 60px;
+    box-shadow: 0px 0px 30px 20px #8736AA;
+    padding: 24.5vh;
     /* other shades of purple from dark to lightest:color: 
     color:#47297B;
     color:#5D2689;
@@ -21,9 +23,12 @@ body {
     */
 }
 button:hover {
-    background-color:#FFE863 ;
-    color: #47297B;
+    color: #5D2689;
+    text-shadow: 0px 0px 3px #8736AA;
     box-shadow: 0px 0px 20px #FFD93D;
+    background-color:#FFD93D ;
+    border: 5px inset #f5bd1f;
+    transition: 0.5s;
 
 }
 .generateButton {
@@ -38,13 +43,14 @@ button {
     height: 5em;
     width: 10em;
     border-radius: 8px;
-    border: 5px solid #8736AA;
+    border: 5px outset #8736AA;
     box-shadow:0px 0px 5px #5D2689;
     background-color: #5D2689;
     color: #f5bd1f;
-    text-shadow: 0px 0px 5px #FFD93D;
-    font-size: 1em;
-    
+    text-shadow: 0px 0px 3px #FFD93D;
+    font-size: 1.2em;
+    font-weight: 700;
+    transition: 0.5s;
 }
 
 .userInputs {
