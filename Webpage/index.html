@@ -10,19 +10,22 @@
 </head>
 <header>
     <h1>RNG</h1>
+    <h2>Random Number Generator</h2>
 </header>
 <body>
     <div class="background">
         <div class="userInputs">
             <form>
-                <input type="number" placeholder="Minimum Number" id="Minimum" name="minumum"  max="99999"><input type="number" placeholder="Maximum Number" id="Maximum" name="maximum"  max="99999"><br>
+                <input type="number" placeholder="Minimum Number" id="Minimum" name="minumum"  max="99999" onclick="inputs()">
+                
+                <input type="number" placeholder="Maximum Number" id="Maximum" name="maximum"  max="99999" onclick="inputs()">
             </form>
         </div><!--End of "userInputs"-->
         <div class="generateButton">
-            <button>Roll the Dice</button>
+            <button type="button" id="result">Roll the Dice</button>
         </div><!--End of "generateButton"-->
         <div class="results">
-            
+           <p id="answer"></p>  
         </div><!--End of "results"-->
     </div><!--End of background-->
     

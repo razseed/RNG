@@ -4,11 +4,22 @@ h1 {
     text-align: center;
     color: #f5bd1f;
     text-shadow: 0px 0px 20px #FFD93D;
+    text-decoration: underline #f5bd1f;
+    margin-bottom: 5px;
     /* other shades of yellow from dark to lightest:
     color:#f5bd1f;
     color:#FFD93D;
     color:#FFE863;
     */
+}
+h2 {
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+    color: #f5bd1f;
+    text-shadow: 0px 0px 20px #FFD93D;
+    text-decoration: underline #f5bd1f;
+    margin-top: 0px;
 }
 body {
     background-color:#47297B;
@@ -60,7 +71,7 @@ button {
     align-items: center;
     gap: 5em;
     column-gap: 5em;
-
+    flex-wrap: nowrap;
 }
 #Minimum {
     width: 12em;
