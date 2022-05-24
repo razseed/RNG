@@ -31,3 +31,27 @@ function inputs() {
 //console.log(result)
 */
 
+/*
+function userinputs() {
+    let Minimum = document.getElementById('Minimum').value;
+    Minimum = parseFloat(Minimum);
+    let Maximum = document.getElementById('Maximum').value;
+    Maximum = parseFloat(Maximum);
+    console.log(Minimum)
+    console.log(Maximum)
+}
+*/
+let variables = [];
+console.log(variables)
+
+function baseValue () {
+    let Minimum = document.getElementById('Minimum').value;
+    Minimum = parseFloat(Minimum);
+    console.log(Minimum);
+}
+
+function maxValue() {
+    let Maximum = document.getElementById('Maximum').value;
+    Maximum = parseFloat(Maximum);
+    console.log(Maximum);
+}

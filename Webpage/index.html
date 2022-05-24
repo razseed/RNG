@@ -15,10 +15,12 @@
 <body>
     <div class="background">
         <div class="userInputs">
-            <form>
-                <input type="number" placeholder="Minimum Number" id="Minimum" name="minumum"  max="99999" onclick="inputs()">
+            <form>                      <!--onclick="inputs()"-->                        
+                <input type="number" placeholder="Minimum Number"  
+                id="Minimum" name="minumum"  max="99999" onclick="baseValue()" >
                 
-                <input type="number" placeholder="Maximum Number" id="Maximum" name="maximum"  max="99999" onclick="inputs()">
+                <input type="number" placeholder="Maximum Number"
+                 id="Maximum" name="maximum"  max="99999" onclick="maxValue()" >
             </form>
         </div><!--End of "userInputs"-->
         <div class="generateButton">
