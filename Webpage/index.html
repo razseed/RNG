@@ -15,19 +15,19 @@
 <body>
     <div class="background">
         <div class="userInputs">
-            <form>                      <!--onclick="inputs()"-->                        
+            <form>                      <!--onclick="inputs()"-->  <!--onkeyup="baseValue"-->                      
                 <input type="number" placeholder="Minimum Number"  
-                id="Minimum" name="minumum"  max="99999" onclick="baseValue()" onkeyup="baseValue()" >
-                
+                id="Minimum" name="minimum"  max="99999" onkeyup="displayRandomValues()" onclick="displayRandomValues()" >
+                                                                  <!--onkeyup="maxValue()-->
                 <input type="number" placeholder="Maximum Number"
-                 id="Maximum" name="maximum"  max="99999" onclick="maxValue()" onkeyup="maxValue()" >
+                 id="Maximum" name="maximum"  max="99999"  onkeyup="displayRandomValues()" onclick="displayRandomValues()" >
             </form>
         </div><!--End of "userInputs"-->
         <div class="generateButton">
-            <button type="button" id="result">Roll the Dice</button>
+            <button type="button" id="Result">Roll the Dice</button>
         </div><!--End of "generateButton"-->
         <div class="results">
-           <p id="answer"></p>  
+           <p id="output"></p>  
         </div><!--End of "results"-->
     </div><!--End of background-->
     
