@@ -82,7 +82,7 @@ function displayRandomValues(){
     console.log(max);
     const result = random(min,max);
     console.log(result);
-    document.getElementById('output').value=result;
+    document.getElementById('output').innerHTML="Your result is: <br>" + result;
 }
 let btn = document.getElementById('Result');
 btn.addEventListener("click",displayRandomValues)

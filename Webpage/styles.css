@@ -83,3 +83,15 @@ button {
     text-align: center;
     margin-left: 1em;
 }
+#output {
+    color:#f5bd1f;
+    font-weight: 900;
+    font-size: xx-large;
+
+}
+.results {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
