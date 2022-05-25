@@ -9,18 +9,18 @@
     <title>RandomNumberGenerator</title>
 </head>
 <header>
-    <h1>RNG</h1>
-    <h2>Random Number Generator</h2>
+    <a href="file:///home/razseed/RNG/RNG/Webpage/index.html"><h1>RNG</h1>
+    <h2>Random Number Generator</h2></a>
 </header>
 <body>
     <div class="background">
         <div class="userInputs">
             <form>                      <!--onclick="inputs()"-->                        
                 <input type="number" placeholder="Minimum Number"  
-                id="Minimum" name="minumum"  max="99999" onclick="baseValue()" >
+                id="Minimum" name="minumum"  max="99999" onclick="baseValue()" onkeyup="baseValue()" >
                 
                 <input type="number" placeholder="Maximum Number"
-                 id="Maximum" name="maximum"  max="99999" onclick="maxValue()" >
+                 id="Maximum" name="maximum"  max="99999" onclick="maxValue()" onkeyup="maxValue()" >
             </form>
         </div><!--End of "userInputs"-->
         <div class="generateButton">

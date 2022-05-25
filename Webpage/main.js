@@ -41,17 +41,25 @@ function userinputs() {
     console.log(Maximum)
 }
 */
-let variables = [];
+let variables = ["",""];
 console.log(variables)
 
 function baseValue () {
     let Minimum = document.getElementById('Minimum').value;
     Minimum = parseFloat(Minimum);
+    Minimum = Minimum ? Minimum: 0;
     console.log(Minimum);
+    variables.shift(Minimum);
 }
 
 function maxValue() {
     let Maximum = document.getElementById('Maximum').value;
     Maximum = parseFloat(Maximum);
+    Maximum = Maximum ? Maximum : 0;
     console.log(Maximum);
+    variables.push(Maximum);
+}
+
+function random(max,min){
+    return Math.floor(Math.random()*(max - min +1)) + min
 }
