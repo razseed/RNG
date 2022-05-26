@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="auther" content="Christian McRae">
+    <meta name="author" content="Christian McRae">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>RandomNumberGenerator</title>
 </head>
@@ -15,19 +15,20 @@
 <body>
     <div class="background">
         <div class="userInputs">
-            <form>                      <!--onclick="inputs()"-->  <!--onkeyup="baseValue"-->                      
+            <form>                      <!--onclick="inputs()"-->  <!--onkeyup="baseValue"-->   <!--onkeyup="displayRandomValues()" onclick="displayRandomValues()"-->                   
                 <input type="number" placeholder="Minimum Number"  
-                id="Minimum" name="minimum"  max="99999" onkeyup="displayRandomValues()" onclick="displayRandomValues()" >
-                                                                  <!--onkeyup="maxValue()-->
+                id="Minimum" name="minimum"  max="99999"  >
+                                                                  <!--onkeyup="maxValue()-->  
                 <input type="number" placeholder="Maximum Number"
-                 id="Maximum" name="maximum"  max="99999"  onkeyup="displayRandomValues()" onclick="displayRandomValues()" >
+                 id="Maximum" name="maximum"  max="99999"   >
             </form>
         </div><!--End of "userInputs"-->
         <div class="generateButton">
             <button type="button" id="Result">Roll the Dice</button>
         </div><!--End of "generateButton"-->
         <div class="results">
-           <p id="output">Your result is </p>  
+           <p id="output"></p>
+           <p id="finalSum"></p>
         </div><!--End of "results"-->
     </div><!--End of background-->
     

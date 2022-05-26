@@ -1,8 +1,9 @@
+/* Written and developed by Christian McRae*/
 h1 {
     font-weight: bolder;
     font-size: 5em;
     text-align: center;
-    color: #f5bd1f;
+    color: #ffe100;
     text-shadow: 0px 0px 20px #FFD93D;
     text-decoration: underline #f5bd1f;
     margin-bottom: 5px;
@@ -10,6 +11,7 @@ h1 {
     color:#f5bd1f;
     color:#FFD93D;
     color:#FFE863;
+    color:#ffe100;
     */
 }
 h2 {
@@ -22,10 +24,12 @@ h2 {
     margin-top: 0px;
 }
 body {
+    background-size: cover;
+    background-image:url("../Images/sprayPaint.png"); 
     background-color:#47297B;
-    border: 30px solid #5D2689;
+    /*border: 30px solid #5D2689;*/
     border-radius: 60px;
-    box-shadow: 0px 0px 30px 20px #8736AA;
+    box-shadow: 0px 0px 30px 40px #8736AA;
     padding: 24.5vh;
     /* other shades of purple from dark to lightest:color: 
     color:#47297B;
@@ -37,7 +41,7 @@ button:hover {
     color: #5D2689;
     text-shadow: 0px 0px 3px #8736AA;
     box-shadow: 0px 0px 20px #FFD93D;
-    background-color:#FFD93D ;
+    background-color:#ffe100;
     border: 5px inset #f5bd1f;
     transition: 0.5s;
 
@@ -57,7 +61,7 @@ button {
     border: 5px outset #8736AA;
     box-shadow:0px 0px 5px #5D2689;
     background-color: #5D2689;
-    color: #f5bd1f;
+    color:#ffe100;
     text-shadow: 0px 0px 3px #FFD93D;
     font-size: 1.2em;
     font-weight: 700;
@@ -84,14 +88,20 @@ button {
     margin-left: 1em;
 }
 #output {
-    color:#f5bd1f;
+    color:#ffe100;
     font-weight: 900;
     font-size: xx-large;
+
+}
+#finalSum {
+    color:#ffe100;
+    font-weight: 1000;
+    font-size: 80px;
+    text-shadow: 0px 0px 10px #FFD93D;
 
 }
 .results {
     display:flex;
     justify-content: center;
     align-items: center;
-
 }
